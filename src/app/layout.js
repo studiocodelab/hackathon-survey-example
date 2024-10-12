@@ -11,6 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <script src="https://draggable.github.io/formeo/assets/js/formeo.min.js"></script>
       <body className={inter.className}>{children}</body>
     </html>
   );
